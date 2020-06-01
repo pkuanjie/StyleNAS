@@ -52,9 +52,11 @@ This will automatically prune the network architecture. The trained and pruned a
 
 ## Citation
 If you feel this repository is helpful, please cite our paper,
+```
 @inproceedings{an2019ultrafast,
   title={Ultrafast Photorealistic Style Transfer via Neural Architecture Search},
   author={An, Jie and Xiong, Haoyi and Huan, Jun and Luo, Jiebo}
   booktitle={AAAI},
   year={2020}
 }
+```
