@@ -4,12 +4,12 @@
 
 ## Make photorealistic style transfer with arbitrary content and style photoes.
 With the proposed network architecture named PhotoNAS, you can efficiently produce photorealistic style transfer results of high-resolution content and style inputs.
-![](imgs/intro.pdf)
+![](imgs/intro.jpg)
 
 ## Accelerate photorealistic style transfer with StyleNAS.
 With StyleNAS framework, you can easily accelerate a given style transfer network to a ultrafast one with less parameters at the expense of little decline of style transfer performance.
 
-![](imgs/framework.pdf)
+![](imgs/framework.jpg)
 
 
 ## Environment Requirements
@@ -49,3 +49,12 @@ python style_nas.py
 ```
 
 This will automatically prune the network architecture. The trained and pruned architectures and its style transfer results will be saved in `configs` directory. The pruning precess and results will be logged into `record.txt` file. You may pick up your favored architecture according to performance/efficiency balance.
+
+## Citation
+If you feel this repository is helpful, please cite our paper,
+@inproceedings{an2019ultrafast,
+  title={Ultrafast Photorealistic Style Transfer via Neural Architecture Search},
+  author={An, Jie and Xiong, Haoyi and Huan, Jun and Luo, Jiebo}
+  booktitle={AAAI},
+  year={2020}
+}
