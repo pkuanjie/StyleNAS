@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 
 
 class TransferDataset(Dataset):
-    def __init__(self, content_dir, style_dir):
+    def __init__(self, content_dir):
         super(TransferDataset, self).__init__()
         self.content_dir = content_dir
         self.content_name_list = self.get_name_list(self.content_dir)

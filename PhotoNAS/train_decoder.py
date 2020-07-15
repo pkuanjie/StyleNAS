@@ -74,7 +74,7 @@ def show_results(content, style, no_train, train):
 
 
 def train_single_epoch(args, epoch, encoder, decoder, loader, optimizer, alpha_train=0):
-    for i, (content_batch, style_batch) in enumerate(loader):
+    for i, content_batch in enumerate(loader):
         content_batch.requires_grad = False
 
         d0_control = args.d_control[:5]
