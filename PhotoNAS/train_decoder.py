@@ -46,7 +46,7 @@ def get_loss(encoder, decoder, content, d0_control, d1_control, d2_control, d3_c
     loss = 0.5 * loss_r + 0.5 * loss_p
     return loss
 
-def get_dataloader(content_root, style_root):
+def get_dataloader(content_root):
     transferset = TransferDataset(content_root)
     loader = DataLoader(transferset, 8, True, num_workers=8, drop_last=True)
     return loader
