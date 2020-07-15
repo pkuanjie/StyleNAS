@@ -14,7 +14,7 @@ With StyleNAS framework, you can easily accelerate a given style transfer networ
 
 ## Environment Requirements
 ### PhotoNAS
-- pytorch 1.3.0
+- pytorch 0.4.1
 - opencv 3.0
 
 ### StyleNAS
